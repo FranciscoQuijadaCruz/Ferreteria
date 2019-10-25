@@ -1,0 +1,8 @@
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\bin\Debug\Negocio.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\bin\Debug\Entidades.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\obj\Debug\Negocio.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Negocio\obj\Debug\Negocio.pdb

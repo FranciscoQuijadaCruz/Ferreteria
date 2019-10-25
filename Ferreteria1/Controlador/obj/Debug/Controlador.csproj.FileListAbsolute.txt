@@ -1,0 +1,9 @@
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Controlador.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\obj\Debug\Controlador.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Entidades.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Negocio.dll
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Entidades.pdb
+C:\Users\Francisco\Documents\Visual Studio 2010\Projects\Ferreteria1\Controlador\bin\Debug\Negocio.pdb
