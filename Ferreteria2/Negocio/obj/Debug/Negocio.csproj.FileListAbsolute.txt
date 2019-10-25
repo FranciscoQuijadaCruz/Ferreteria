@@ -1,0 +1,16 @@
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\bin\Debug\Negocio.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\bin\Debug\Entidades.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\bin\Debug\Entidades.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\obj\Debug\Negocio.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\bin\Debug\Negocio.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\bin\Debug\Entidades.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\obj\Debug\Negocio.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Negocio\obj\Debug\Negocio.pdb

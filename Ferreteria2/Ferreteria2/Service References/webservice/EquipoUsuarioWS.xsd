@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webservices/" targetNamespace="http://webservices/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AgregarEquipoUsuario" type="tns:AgregarEquipoUsuario" />
+  <xs:element name="AgregarEquipoUsuarioResponse" type="tns:AgregarEquipoUsuarioResponse" />
+  <xs:element name="EliminarEquipoUsuario" type="tns:EliminarEquipoUsuario" />
+  <xs:element name="EliminarEquipoUsuarioResponse" type="tns:EliminarEquipoUsuarioResponse" />
+  <xs:element name="ObtenerEquiposDeUsuario" type="tns:ObtenerEquiposDeUsuario" />
+  <xs:element name="ObtenerEquiposDeUsuarioResponse" type="tns:ObtenerEquiposDeUsuarioResponse" />
+  <xs:element name="ObtenerUsuariosDeEquipo" type="tns:ObtenerUsuariosDeEquipo" />
+  <xs:element name="ObtenerUsuariosDeEquipoResponse" type="tns:ObtenerUsuariosDeEquipoResponse" />
+  <xs:element name="SeleccionarEquipoUsuario" type="tns:SeleccionarEquipoUsuario" />
+  <xs:element name="SeleccionarEquipoUsuarioResponse" type="tns:SeleccionarEquipoUsuarioResponse" />
+  <xs:complexType name="AgregarEquipoUsuario">
+    <xs:sequence>
+      <xs:element name="idEquipo" type="xs:int" />
+      <xs:element name="idUsuario" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AgregarEquipoUsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SeleccionarEquipoUsuario">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SeleccionarEquipoUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:equipoUsuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="equipoUsuario">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="idEquipo" type="xs:int" />
+      <xs:element name="idUsuario" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EliminarEquipoUsuario">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EliminarEquipoUsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerUsuariosDeEquipo">
+    <xs:sequence>
+      <xs:element name="idEquipo" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerUsuariosDeEquipoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:usuario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="avatar" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerEquiposDeUsuario">
+    <xs:sequence>
+      <xs:element name="idUsuario" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerEquiposDeUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:equipo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="equipo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

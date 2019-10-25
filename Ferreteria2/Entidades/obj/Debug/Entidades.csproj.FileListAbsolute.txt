@@ -1,0 +1,4 @@
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Entidades\bin\Debug\Entidades.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Entidades\obj\Debug\Entidades.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Entidades\obj\Debug\Entidades.pdb

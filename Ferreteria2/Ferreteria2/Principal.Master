@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="Ferreteria2.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <style>
+        li
+        {
+            
+            color:White;
+            cursor:pointer;
+            width: 150px;
+        }
+        
+        div.targetaProducto
+        {
+            display:block;
+            width: 300px;
+            height: auto;
+            border: 1px solid #333;
+            border-radius: 3px;
+            padding: 3px;
+            margin: 5px;
+            float:left;
+        }
+            
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <img src="img/ferreteria.jpg" />
+                </td>
+            </tr>
+            <tr style="margin:10%";>
+                <td colspan="2" style="text-align: right;  width:100%; padding:5px 10px 5px 5px; background:#0099CC; color:White;">
+                    Bienvenido, 
+                    <asp:Label ID="lblNombre" runat="server" Text=""></asp:Label> |&nbsp;
+                    <asp:Button ID="btnLogout" runat="server" Text="Logout" 
+                        onclick="btnLogout_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="card text-white bg-info mb-3" style="max-width: 18rem;  min-height:500px; margin:1%;" >
+                    <h3 style="margin:12%; ">Categorias</h3>
+                    <ul style="list-style:none;">
+                    <asp:HyperLink ID="hplInicio" runat="server" style="text-decoration:none; color:White;">Inicio</asp:HyperLink>
+                    
+                    <li><asp:HyperLink ID="hplAgregar" runat="server" style="text-decoration:none; color:White;">Agregar Producto</asp:HyperLink></li>     <% %>
+                        <%
+                            
+                                foreach (Entidades.Categoria cat in Controlador.drCategoria.drObtenerCategorias())
+                                {
+                                    hplCategoria.Text = cat.Nombre;
+                                    hplCategoria.NavigateUrl = "frmPrincipal.aspx?cat=" + cat.Id;
+                                    
+                        %>
+                            
+                            <li style="color:White;">
+                               
+                                <asp:HyperLink ID="hplCategoria" runat="server" style="text-decoration:none; color:White;"></asp:HyperLink>
+                            </li>  
+                        <%
+                            }
+                            
+                        %>              
+                    </ul>
+                </td>
+                <td style="width:70%; min-height:300px;">
+                    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <!-- Todo el contenido va aqui-->
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

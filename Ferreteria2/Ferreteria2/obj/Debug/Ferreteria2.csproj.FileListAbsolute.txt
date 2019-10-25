@@ -1,0 +1,22 @@
+c:\users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Ferreteria2.dll
+c:\users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Ferreteria2.pdb
+c:\users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.dll
+c:\users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Controlador.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Entidades.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Negocio.dll
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Controlador.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Entidades.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\bin\Negocio.pdb
+C:\Users\jorge\documents\visual studio 2010\Projects\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Ferreteria2.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Ferreteria2.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Controlador.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Entidades.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Negocio.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Controlador.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Entidades.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\bin\Negocio.pdb
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.dll
+C:\Users\Francisco\Downloads\Ferreteria2\Ferreteria2\obj\Debug\Ferreteria2.pdb
